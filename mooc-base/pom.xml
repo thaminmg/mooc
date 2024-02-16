@@ -10,7 +10,7 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd">
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../mooc-parent</relativePath>
     </parent>
-    <artifactId>xuecheng-plus-base</artifactId>
+    <artifactId>mooc-base</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>

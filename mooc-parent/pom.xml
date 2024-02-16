@@ -60,7 +60,8 @@
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
-                <version>${org.projectlombok.version}</version>
+                <version>1.18.30</version>
+<!--                <version>${org.projectlombok.version}</version>-->
             </dependency>
             <!-- mapstruct 代码生成器，简化 java bean 之间的映射 -->
             <dependency>
