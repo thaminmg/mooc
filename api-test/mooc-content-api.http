@@ -1,0 +1,9 @@
+### Query Course Base Info
+POST {{content_host}}/course/list?pageNo=1&pageSize=2
+Content-Type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": ""
+}
