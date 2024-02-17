@@ -1,11 +1,7 @@
-server:
-  servlet:
-    context-path: /content
-  port: 63040
 # Microservice config
 spring:
   application:
-    name: content-api
+    name: content-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/mooc_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
@@ -14,10 +10,3 @@ spring:
 # Logs config
 logging:
   config: classpath:log4j2-dev.xml
-# API documentation
-swagger:
-  title: "MOOC CMS"
-  description: "Content Management System for Massive Online Open Course"
-  base-package: com.mooc.content
-  enabled: true
-  version: 1.0.0
